@@ -41,7 +41,7 @@ networking =  {
     hostName = "sushinix";
     networkmanager.enable = true;
     firewall = {
-      allowedTCPPorts = [32400 53266];
+      allowedTCPPorts = [32400 53266 51287];
       allowedUDPPorts = [32400 53266];
       enable = true;
     };
