@@ -16,6 +16,7 @@
 
   time.timeZone = "America/Mexico_City";
   i18n.defaultLocale = "en_US.UTF-8";
+  i18n.supportedLocales = ["es_MX.UTF-8/UTF-8"];
   services.xserver = {
     enable = true;
     layout = "us";

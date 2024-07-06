@@ -14,6 +14,7 @@
  environment = {
   variables = {
      RUST_SRC_PATH = "${pkgs.rustc}";
+     
   };
   systemPackages = with pkgs; [
     hyfetch
@@ -34,6 +35,9 @@
     (catppuccin-sddm.override {
      flavor = "mocha";
      loginBackground = true; })
+    (prismlauncher.override {
+      jdks = [jdk8 jdk17 jdk21];
+    })
   ];
  };
 
