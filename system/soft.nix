@@ -14,6 +14,7 @@
  environment = {
   variables = {
      RUST_SRC_PATH = "${pkgs.rustc}";
+     NIXOS_OZONE_WL = "1";
      
   };
   systemPackages = with pkgs; [
