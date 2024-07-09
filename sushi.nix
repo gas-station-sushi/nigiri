@@ -12,6 +12,7 @@
     ./drive.nix
     ./system/boot.nix
     ./system/soft.nix
+    ./system/plex.nix
   ];
 
   time.timeZone = "America/Mexico_City";

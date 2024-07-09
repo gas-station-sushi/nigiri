@@ -24,10 +24,6 @@
     resolved.enable = true;
     printing.enable = true;
     flatpak.enable = true;
-    sonarr.enable = true;
-    radarr.enable = true;
-    jackett.enable = true;
-    plex.enable = true;
     pipewire = {
        enable = true;
        alsa.enable = true;
